@@ -1,0 +1,6 @@
+<meta>
+	<info type="script" name="afk" author="gw8" />
+	
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+</meta>

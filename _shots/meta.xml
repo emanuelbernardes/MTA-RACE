@@ -1,0 +1,17 @@
+<meta>
+
+	<info 
+		name="Projectiles Detector"
+		author="AndreiSR"
+		version="Version 1"
+		descripition="Detector de mísseis"
+		type="script"
+	/>
+	
+	<!-- Client-side scripts -->
+	<script src="projectiles_client.lua" type="client" cache="false"/>
+	
+	<!-- Server-side scripts -->
+	<script src="projectiles.lua" />
+	
+</meta>

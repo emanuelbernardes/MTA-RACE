@@ -1,0 +1,12 @@
+<meta>
+	<info author="Gw8" type="script" name="Radar" version="1.0" />
+	<script src="client.lua" type="client" />
+	<file src="img/local.png" />
+	<file src="img/blip.png" />
+	<file src="img/shot.png" />
+	<file src="img/blip-heli.png" />
+	<file src="img/blip-rotor.png" />
+	<file src="img/north.png" />
+	<file src="img/radar.png" />
+	<file src="digital.ttf" />
+</meta>

@@ -1,0 +1,223 @@
+<meta>
+
+	<info author="Gw8" version="1.0.0" type="script" name="UserPanel" description="Deus q owna!" />
+	<min_mta_version client="1.5.0" server="1.5.0" />
+
+	<export function="getTeamTag" type="server" />
+	<export function="getQueueLists" type="server" />
+
+    <script src="utils_c.lua" type="client" />
+	<script src="user_c.lua" type="client" />
+	<script src="efect_c.lua" type="client" />
+	<script src="user_s.lua" type="server" />
+	<script src="save_sql.lua" type="server" />
+	<script src="score.lua" type="server" />
+	<script src="utils_s.lua" type="server" />
+	<file src="files/fx/blur.fx" />
+
+	<script src="files/data/mapshop/mapshop_s.lua" type="server" />
+	<script src="files/data/custom/custom_s.lua" type="server" />
+	<script src="files/data/stat/stat_s.lua" type="server" />
+	<script src="files/data/music/music_s.lua" type="server" />
+	<script src="files/data/team/team_s.lua" type="server" />
+	<script src="files/data/donator/donator_s.lua" type="server" />
+    <script src="files/data/missions/missions_s.lua" type="server" />
+	<script src="files/data/monitor/monitor_s.lua" type="server" />
+
+	<script src="files/data/mapshop/mapshop_c.lua" type="client" />
+	<script src="files/data/ranking/ranking_c.lua" type="client" />
+	<script src="files/data/custom/custom_c.lua" type="client" />
+	<script src="files/data/options/options_c.lua" type="client" />
+	<script src="files/data/stat/stat_c.lua" type="client" />
+	<script src="files/data/team/team_c.lua" type="client" />
+	<script src="files/data/music/music_c.lua" type="client" />
+	<script src="files/data/donator/donator_c.lua" type="client" />
+	<script src="files/data/missions/missions_c.lua" type="client" />
+	<script src="files/data/monitor/monitor_c.lua" type="client" />
+	<script src="files/data/notify/not_c.lua" type="client" />
+	<script src="save_xml.lua" type="client" />
+
+	<file src="files/img/mapshop.png" />
+	<file src="files/img/ranking.png" />
+	<file src="files/img/custom.png" />
+	<file src="files/img/options.png" />
+	<file src="files/img/music.png" />
+	<file src="files/img/donator.png" />
+	<file src="files/img/stat.png" />
+	<file src="files/img/team.png" />
+	<file src="files/img/logo.png" />
+	<file src="files/img/background.png" />
+	<file src="files/img/borda.png" />
+	<file src="files/img/missions.png" />
+	<file src="files/img/monitor.png" />
+
+	<file src="files/img/options/car_mod.png" />
+	<file src="files/img/options/water.png" />
+	<file src="files/img/options/car_paint.png" />
+	<file src="files/img/options/bloom.png" />
+	<file src="files/img/options/hdr.png" />
+	<file src="files/img/options/skid.png" />
+	<file src="files/img/options/snow.png" />
+	<file src="files/img/options/hunter.png" />
+	<file src="files/img/options/road.png" />
+
+	<file src="files/img/custom/car_color.png" />
+	<file src="files/img/custom/police.png" />
+	<file src="files/img/custom/car_lights.png" />
+	<file src="files/img/custom/car_nitro.png" />
+	<file src="files/img/custom/rocket.png" />
+	<file src="files/img/custom/soon.png" />
+
+	<file src="files/img/music/radio_1.png" />
+	<file src="files/img/music/radio_2.png" />
+	<file src="files/img/music/radio_3.png" />
+	<file src="files/img/music/radio_4.png" />
+	<file src="files/img/music/mute.png" />
+	<file src="files/img/music/unmute.png" />
+	<file src="files/img/music/search.png" />
+
+	<file src="files/font/font.ttf" />
+
+	<script src="files/data/custom/police/police_c.lua" type="client" />
+
+	<script src="files/data/custom/nitro/nitro_c.lua" type="client" />
+	<file src="files/data/custom/nitro/nitro.fx" />
+
+	<script src="files/data/options/carpaint/c_car_paint.lua" type="client" />
+	<file src="files/data/options/carpaint/car_paint.fx" />
+	<file src="files/data/options/carpaint/mta-helper.fx" />
+	<file src="files/data/options/carpaint/images/cube_env256.dds" />
+	<file src="files/data/options/carpaint/images/smallnoise3d.dds" />
+
+	<script src="files/data/options/water/c_water.lua" type="client" />
+	<file src="files/data/options/water/water.fx" />
+	<file src="files/data/options/water/mta-helper.fx" />
+	<file src="files/data/options/water/images/cube_env256.dds" />
+	<file src="files/data/options/water/images/smallnoise3d.dds" />
+
+	<script src="files/data/options/bloom/bloom_c.lua" type="client" />
+	<file src="files/data/options/bloom/addBlend.fx" />
+	<file src="files/data/options/bloom/blurH.fx" />
+	<file src="files/data/options/bloom/blurV.fx" />
+	<file src="files/data/options/bloom/brightPass.fx" />
+	<file src="files/data/options/bloom/mta-helper.fx" />
+
+	<script src="files/data/options/snow/c_snowground.lua" type="client" />
+	<file src="files/data/options/snow/snow_ground.fx" />
+	<file src="files/data/options/snow/snow_naughty_trees.fx" />
+	<file src="files/data/options/snow/snow_trees.fx" />
+	<file src="files/data/options/snow/mta-helper.fx" />
+	<file src="files/data/options/snow/smallnoise3d.dds" />
+	
+	<script src="files/data/options/carmod/model_c.lua" type="client" />
+	<file src="files/data/options/carmod/infernus.txd" />
+	<file src="files/data/options/carmod/infernus.dff" />
+	
+	<script src="files/data/options/huntermod/model_c.lua" type="client" />
+	<file src="files/data/options/huntermod/hunter.txd" />
+	<file src="files/data/options/huntermod/hunter.dff" />
+	
+	<script src="files/data/options/road/road_c.lua" type="client" />
+	<file src="files/data/options/road/8558.txd" />
+	<file src="files/data/options/road/3458.txd" />
+
+	<script src="files/data/options/hdr/contrast_c.lua" type="client" />
+	<script src="files/data/options/hdr/rtpool_c.lua" type="client" />
+	<script src="files/data/options/hdr/switch_c.lua" type="client" />
+	<file src="files/data/options/hdr/images/vignette1.dds" />
+	<file src="files/data/options/hdr/fx/bloom_combine.fx" />
+    <file src="files/data/options/hdr/fx/bloom_extract.fx" />
+	<file src="files/data/options/hdr/fx/blurH.fx" />
+	<file src="files/data/options/hdr/fx/blurV.fx" />
+	<file src="files/data/options/hdr/fx/contrast.fx" />
+	<file src="files/data/options/hdr/fx/modulation.fx" />
+	<file src="files/data/options/hdr/fx/mta-helper.fx" />
+
+	<script src="files/data/options/skid/skidmarks_c.lua" type="client" />
+	<file src="files/data/options/skid/skidmarks.fx" />
+	<file src="files/data/options/skid/mta-helper.fx" />
+
+	<script src="files/data/donator/lights/lights_c.lua" type="client" />
+	<file src="files/data/donator/lights/lights.fx" />
+	<file src="files/data/donator/lights/1.png" />
+	<file src="files/data/donator/lights/2.png" />
+	<file src="files/data/donator/lights/3.png" />
+	<file src="files/data/donator/lights/4.png" />
+	<file src="files/data/donator/lights/5.png" />
+	<file src="files/data/donator/lights/6.png" />
+
+	<script src="files/data/donator/wheels/wheels_c.lua" type="client" />
+	<script src="files/data/donator/wheels/wheels_s.lua" type="server" />
+	<file src="files/data/donator/wheels/J2_wheels.txd" />
+	<file src="files/data/donator/wheels/wheel_gn1.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_gn2.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_gn3.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_gn4.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_gn5.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_lr1.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_lr2.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_lr3.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_lr4.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_lr5.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_or1.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_sr1.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_sr2.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_sr3.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_sr4.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_sr5.dff" download="false"/>
+	<file src="files/data/donator/wheels/wheel_sr6.dff" download="false"/>
+
+	<file src="files/img/donator/wheels/custom/1025.jpg" />
+	<file src="files/img/donator/wheels/custom/1073.jpg" />
+	<file src="files/img/donator/wheels/custom/1074.jpg" />
+	<file src="files/img/donator/wheels/custom/1075.jpg" />
+	<file src="files/img/donator/wheels/custom/1076.jpg" />
+	<file src="files/img/donator/wheels/custom/1077.jpg" />
+	<file src="files/img/donator/wheels/custom/1078.jpg" />
+	<file src="files/img/donator/wheels/custom/1079.jpg" />
+	<file src="files/img/donator/wheels/custom/1080.jpg" />
+	<file src="files/img/donator/wheels/custom/1081.jpg" />
+	<file src="files/img/donator/wheels/custom/1082.jpg" />
+	<file src="files/img/donator/wheels/custom/1083.jpg" />
+	<file src="files/img/donator/wheels/custom/1084.jpg" />
+	<file src="files/img/donator/wheels/custom/1085.jpg" />
+	<file src="files/img/donator/wheels/custom/1096.jpg" />
+	<file src="files/img/donator/wheels/custom/1097.jpg" />
+	<file src="files/img/donator/wheels/custom/1098.jpg" />
+
+	<file src="files/img/donator/wheels/original/1025.jpg" />
+	<file src="files/img/donator/wheels/original/1073.jpg" />
+	<file src="files/img/donator/wheels/original/1074.jpg" />
+	<file src="files/img/donator/wheels/original/1075.jpg" />
+	<file src="files/img/donator/wheels/original/1076.jpg" />
+	<file src="files/img/donator/wheels/original/1077.jpg" />
+	<file src="files/img/donator/wheels/original/1078.jpg" />
+	<file src="files/img/donator/wheels/original/1079.jpg" />
+	<file src="files/img/donator/wheels/original/1080.jpg" />
+	<file src="files/img/donator/wheels/original/1081.jpg" />
+	<file src="files/img/donator/wheels/original/1082.jpg" />
+	<file src="files/img/donator/wheels/original/1083.jpg" />
+	<file src="files/img/donator/wheels/original/1084.jpg" />
+	<file src="files/img/donator/wheels/original/1085.jpg" />
+	<file src="files/img/donator/wheels/original/1096.jpg" />
+	<file src="files/img/donator/wheels/original/1097.jpg" />
+	<file src="files/img/donator/wheels/original/1098.jpg" />
+
+	<file src="files/img/missions/survivor.png" />
+	<file src="files/img/missions/2top.png" />
+	<file src="files/img/missions/hunter.png" />
+	<file src="files/img/missions/waterdie.png" />
+	<file src="files/img/missions/change.png" />
+	<file src="files/img/missions/earn.png" />
+	<file src="files/img/missions/drive.png" />
+	<file src="files/img/missions/2row.png" />
+	<file src="files/img/missions/accept.png" />
+	<file src="files/img/missions/explode.png" />
+	
+	<script src="files/colorPick/picker_client.lua" type="client" />
+	<file src="files/colorPick/img/cursor.png" />
+	<file src="files/colorPick/img/h.png" />
+	<file src="files/colorPick/img/sv.png" />
+	<file src="files/colorPick/img/blank.png" />
+
+</meta>

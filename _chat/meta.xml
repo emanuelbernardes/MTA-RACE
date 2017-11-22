@@ -1,0 +1,4 @@
+<meta>
+	<info author="Gw8 and Someguy" type="script" name="Chat and Team System" version="1.0" />
+	<script src="chat_s.lua" type="server" />
+</meta>

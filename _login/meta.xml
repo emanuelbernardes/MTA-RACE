@@ -1,0 +1,10 @@
+<meta>
+	<info author="gw8" version="1.0.3" type="script" />
+	<min_mta_version client="1.5.0" server="1.5.0" />
+	<script src="dxLib.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<file src="return.png" />
+	<file src="close.png" />
+	<file src="logo.png" />
+</meta>
